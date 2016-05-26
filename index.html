@@ -4,21 +4,56 @@
     <meta charset="utf-8">
     <title>Costa Rica</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
   </head>
+  <body>
 
   <!-- Navbar -->
-  <div class="navbar navbar-fixed-top">
-  </div>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">Costa Rica</a>
+      </div>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Get There</a></li>
+        <li><a href="#">Hotels</a></li>
+        <li><a href="#">Food</a></li>
+      </ul>
+    </div>
+  </nav>
 
   <!-- Carousel -->
   <div id="myCarousel" class="carousel slide jumbotron">
-  </div>
-
-
-  <div class="container">
-  </div>
-
-<!-- Modal -->
-  <div class="modal fade" id="infoModal">
-  </div>
+    <div class="container">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="img/costa-rica-beach.jpg" alt="A picture of a beach" />
+        </div>
+        <div class="item">
+          <img src="img/costa-rica-volcano.jpg" alt="A picture of a volcano" />
+        </div>
+        <div class="item">
+          <img src="img/waterfall.jpg" alt="A picture of a waterfall" />
+        </div>
+      </div><!--carousel inner-->
+    </div><!--container-->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="icon-prev"></span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="icon-next"></span>
+    </a>
+</div> <!--mycarousel-->
+  <!-- Modal -->
+    <div class="modal fade" id="infoModal">
+    </div>
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+  </body>
 </html>

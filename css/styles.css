@@ -1,0 +1,16 @@
+body {
+  margin-top: 50px;
+}
+
+img {
+  width: auto;
+  height: 450px;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-indicators {
+  bottom:0;
+}
