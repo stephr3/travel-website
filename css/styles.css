@@ -2,6 +2,10 @@ body {
   margin-top: 50px;
 }
 
+#submitButton {
+  text-align: center;
+  margin:20px 0 20px 0;
+}
 .carousel {
   max-height: 700px;
   overflow: hidden;
