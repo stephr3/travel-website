@@ -2,12 +2,12 @@ body {
   margin-top: 50px;
 }
 
-img {
-  width: auto;
-  height: 450px;
+.carousel {
+  max-height: 700px;
+  overflow: hidden;
 }
 
-.carousel-inner > .item > img {
+.carousel-inner .item img {
     margin: 0 auto;
 }
 
